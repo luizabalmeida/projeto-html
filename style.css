@@ -1,0 +1,245 @@
+body {
+    background-color: rgb(181, 195, 223);
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    padding: 50px;
+    background-image: url(3175316-pets-cats-and-dogs-seamless-pattern-in-doodle-style-vetor-removebg-preview.png);
+  }
+  
+  /* MENU LATERAL */
+  .sidebar {
+    width: 220px;
+    background-color:rgb(107, 141, 163);
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+  }
+
+  .menu-button {
+    background: none;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    color: #201d1d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .menu-button:hover {
+    background-color: rgb(176, 218, 198);
+  }
+
+  .submenu {
+    display: none;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+
+  .submenu a {
+    text-decoration: none;
+    color: #3f5740;
+    padding: 8px 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .submenu a:hover {
+    background-color:rgb(176, 218, 198);
+  }
+  /* CONTEÚDO PRINCIPAL */
+  .content {
+    flex-grow: 1;
+    padding: 60px;
+  }
+
+  .content > div {
+    display: none;
+  }
+
+  .content > div.active {
+    display: block;
+  }
+  #VidaPet{
+      font-size:  20px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+  #sobrecrud{
+     font-size: 20px;
+     background-color: rgb(171, 171, 218);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding: 6px;
+  }
+  #crudd{
+    margin-left: 300px;
+    color: rgb(179, 27, 47);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #petz{
+    height: 430px;
+    margin-left: 380px;
+  }
+  #add{
+     font-size: 20px;
+     padding: 50px;
+     background-color: rgb(171, 171, 218);
+     margin-top: -60px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  #vizu{
+    font-size: 20px;
+    background-color:rgb(171, 171, 218);
+     padding: 50px;
+     margin-top: -60px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  #att{
+    font-size: 20px;
+    background-color: rgb(171, 171, 218);
+     padding: 50px;
+     margin-top: -60px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  #delet{
+    font-size: 20px;
+    background-color: rgb(171, 171, 218);
+     padding: 50px;
+     margin-top: -60px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+
+  #sobrecadastro{
+    font-size: 20px;
+    background-color: rgb(171, 171, 218);
+     padding: 50px;
+     margin-top: -60px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  #evento{
+    font-size: 20px;
+     padding: 50px;
+     background-color:rgb(171, 171, 218);
+     margin-top: -60px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  #exib{
+     font-size: 20px;
+     padding: 50px;
+     margin-top: -60px;
+     background-color: rgb(171, 171, 218);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  #voltar{
+    font-size: 20px;
+    background-color: rgb(171, 171, 218);
+     padding: 50px;
+     margin-top: -60px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  #metas{
+    font-size: 20px;
+    background-color:rgb(171, 171, 218);
+     padding: 50px;
+     margin-top: -60px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  #sugestoes{
+    font-size: 20px;
+    background-color: rgb(171, 171, 218);
+     padding: 50px;
+     margin-top: -60px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  #extra{
+    font-size: 20px;
+    background-color:rgb(171, 171, 218);
+     padding: 50px;
+     margin-top: -60px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  #petss{
+      height: 270px;
+      margin-top: -00px;
+      margin-left: 100px;
+  }
+  #VIDAPET{
+      height:480px;
+      margin-left: 580px;
+      margin-top: -100px;
+      
+  }
+  #manual{
+    font-size: 18px;
+    margin-top: -25px;
+    margin-left: 370px;
+  }
+  #sistema{
+  margin-left: 300px;
+  color:rgb(179, 27, 47)
+  }
+  #VidaPet{
+    background-color: rgb(171, 171, 218);
+    padding: 50px;
+    margin-top: -60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #dogs{
+    height: 380px;
+    margin-left: 200px;
+  }
+  #adicionar{
+    margin-left: 300px;
+    color:rgb(179, 27, 47);
+  }
+  h2{
+    color: rgb(179, 27, 47);
+    margin-left: 300px;
+
+  }
+  
+  #dogss{
+    height: 380px;
+    margin-left: 200px;
+  }
+  #cads{
+    margin-left: 180px;
+  }
+  #comida{
+    margin-left: 400px ;
+    margin-top: -600px;
+    margin-bottom: 100px;
+    height: 220px ;
+  }
+  #pas{
+    margin-left: -170px ;
+    height: 300px;
+  }
+  #sug{
+    height: 270px;
+  }
+  #vet{
+    margin-left: 400px ;
+    margin-top: -600px;
+    margin-bottom: 30px;
+    height: 220px ;
+  }
+  #tutor{
+    height: 270px;
+  }
+  #tut{
+    margin-left: 400px;
+    height: 270px;
+    margin-top: -300px;
+  } #petzy{
+    margin-left: 80px;
+  } #ft{
+    height: 270px;
+  }#dogz{
+   margin-left: 100px;
+   height: 340px;
+  } #volt{
+    height: 300px;
+    margin-left: 300px;
+  }

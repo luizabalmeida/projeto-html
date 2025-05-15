@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manual do Usuário</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="sidebar">
+
+    <button class="menu-button" onclick="toggleMenu('crud')">Crud de animais de estimação</button>
+    <div id="crud" class="submenu">
+        <a href="#" onclick="showTab('sobrecrud')">Sobre o Crud</a>
+      <a href="#" onclick="showTab('add')">Adicionar</a>
+      <a href="#" onclick="showTab('vizu')">Visualizar</a>
+      <a href="#" onclick="showTab('att')">Atualizar</a>
+      <a href="#" onclick="showTab('delet')">Deletar</a>
+    </div>
+
+    <button class="menu-button" onclick="toggleMenu('cadastro')">Cadastro de Cuidados e Eventos</button>
+    <div id="cadastro" class="submenu">
+        <a href="#" onclick="showTab('sobrecadastro')">Sobre o Cadastro</a>
+      <a href="#" onclick="showTab('evento')">Cadastrar o Evento</a>
+      <a href="#" onclick="showTab('exib')">Exibir o Evento</a>
+      <a href="#" onclick="showTab('voltar')">Voltar</a>
+    </div>
+
+   
+    <button class="menu-button" onclick="showTab('metas')">Metas de Saúde e Bem-Estar</button>
+    <button class="menu-button" onclick="showTab('sugestoes')">Sugestões Personalizadas de Cuidado</button>
+    <button class="menu-button" onclick="showTab('extra')">Cadastro do Dono(a)</button>
+    
+</div>
+
+  <!-- CONTEÚDO -->
+  <div class="content">
+    <div id="VidaPet" class="active">
+      <h1 id="sistema">Sistema Vida Pet</h1>
+      <h4 id="manual">Manual do usuário</h4>
+      <p>O Vida Pet é um sistema que ajudará  os tutores a organizar os cuidados
+        com seus animais de estimação, mantendo a saúde e a rotina sempre atualizados. <br> Para facilitar ainda mais a experiência do usuário, o sistema conta com: <br><b><br>-Crud de animais de estimação <br>-Cadastro de Eventos e Cuidados<br>-Metas de Saúde e Bem-Estar<br>-Sugestões Personalizadas de Cuidado<br>-Cadastro do Dono(a)</b></p>
+    <img src="png-transparent-pet-dogs-and-cats-pet-dog-cat-removebg-preview.png" id="petss">
+    </div>
+
+    <div id="add">
+      <h2 id="adicionar">Adicionar</h2>
+      <p>Para adicionar, é necessário que o usuário insira o número "1" do crud. Logo em seguida, ele preencherá os nomes dos pets, as espécies, as raças, os nascimentos e os pesos. Cada um desses dados serão armazenados em suas respectivas listas, possibilitando uma maior organização e praticidade ao manipulá-los.</p>
+      <img src="11437625-removebg-preview.png" id="dogs">
+    </div>
+
+    <div id="vizu">
+      <h2>Visualizar</h2>
+      <p>Para visualizar, é necessário que o usuário insira o número "2" do crud. Ao fazê-lo, será possível ler e visualizar todas as informações, permitindo que o tutor consiga ter acesso a tudo aquilo que já foi anteriomermente adicionado/registrado por ele.</p>
+      <img src="img_fundo_pets-removebg-preview.png" id="dogss">
+    </div>
+
+    <div id="att">
+        <h2>Atualizar</h2>
+        <p>Para atualizar, é necessário que o usuário insira o número "3" do crud. Após isso, o usuário deverá informar qual pet ele deseja atualizar e, em seguida, qual das informações ele precisa/deseja editar. Cada possibilidade (nome, espécie, raça, nacimento ou peso) leva a sua respectiva lista, e é a partir da manipulação dessas listas que será possível fazer as devidas atualizações. Caso o usuário insira uma opção fora das anteriormente listadas, ele será alertado e conseguirá refazer o processo.</p>
+        <img src="animais-domesticos-destaque-removebg-preview.png" id="ft">
+      </div>
+
+    <div id="delet">
+      <h2>Deletar</h2>
+      <p>Para deletar, é necessário que o usuário insira o número "4" do crud. Isso possibilitará que o usuário insira qual pet deseja excluir e, de fato, deletar o animalzinho.</p>
+      <img src="animais-de-estimacao-removebg-preview.png" id="dogz">
+    </div>
+
+    <div id="sobrecrud">
+        <h2 id="crudd">Crud de animais de estimação</h2>
+        <p>Nessa parte do sistema, será permitido o usuário fazer registros de eventos importantes como: <b>vacinações, consultas veterinárias e aplicação de remédios. </b> O usuário deve informar as datas, o nome do pet, nome do responsável e as observações. Todas essas informações serão devidamente registradas nem um "menu" que terá as seguintes opções:</p>
+        <p>Todo o crud será armazenado em arquivo de texto, permitindo que todas as informações fiquem registradas e não se percam. Cada pet terá seu próprio arquivo.</p>
+        <img src="Pastel_Pink_Green_Blue_Minimal_Doodle_A4_Document__1_-removebg-preview.png" id="petz">
+      </div>
+  
+    <div id="sobrecadastro">
+      <h2 id="cads">Cadastro de Cuidados e Eventos</h2>
+      <p>Nessa parte do sistema, será permitido o usuário fazer registros de eventos importantes como: <b>vacinações, consultas veterinárias e aplicação de remédios. </b> O usuário deve informar as datas, o nome do pet, nome do responsável e as observações. Todas essas informações serão devidamente registradas nem um "menu" que terá as seguintes opções:</p>
+      <img src="unnamed-removebg-preview.png" id="petzy">
+    </div>
+
+    <div id="evento">
+        <h2>Cadastrar o Evento</h2>
+        <p>1º- O usuário deverá adicionar qual o tipo de evento que estará cadastrando o pet. <b>Esses eventos estarão em um dicionário que contará com listas para cada evento.</b> Caso o evento não esteja dentro desse dicionário, o usuário recebrá uma mensagem avisando que o evento é inválido.<br> 2- O usuário deve inserir a data do evento, o nome do pet, o nome do responsável e as observações. Em seguida, o usuário receberá uma mensagem afirmando que o cadastro do evento foi cadastrado com sucesso.</p>
+        <img src="petss-removebg-preview.png" id="petzy">
+      </div>
+
+    <div id="exib">
+      <h2>Exibir Evento</h2>
+      <p>O usuário terá acesso e conseguirá visualizar todas as informações cadastradas do evento (as informações contidas nas listas dos eventos que estão no dicionário)</p>
+      <img src="pets_sem_fundo-removebg-preview.png" id="petzy">
+    </div>
+
+    <div id="metas">
+        <h2 id="cads">Metas de Saúde e Bem-Estar</h2>
+        <p>O sistema também possibilitará que os tutores consigam definir e acompanhar suas metas. Para isso, o tutor definirá através de um <b>input</b> quais serão suas metas e, posteriomermente, fornecerá dados que permitirão fazer o acompanhamento das respectivas metas.</p>
+        <img src="porque-e-importante-passear-com-o-cachorro-removebg-preview.png" id="pas">
+        <img src="veterinário-removebg-preview (1).png" id="vet">
+      </div>
+
+    <div id="sugestoes">
+        <h2 id="cads">Sugestões Personalizadas de Cuidado</h2>
+        <p>Essa parte do sistema permite que sugestões sejam feitas baseadas na espécie e na idade do animalzinho. Para isso, adicionamos uma função que possibilita calcular a idade do pet relacionando sua data de nascimento. Algumas das sugestões que podem ser feitas são: </p>
+        <details>
+            <summary><strong>1-Brinquedos</strong></summary>
+            <p>Exemplo: <br>
+                Espécie do pet: Cachorro <br>
+                Idade do pet (em anos): 1 <br>
+                A sugestão para um cachorro de 1 ano é comprar mordedores e brinquedos de borracha para o filhote se divertir!
+            </p> </details>
+        <details>
+            <summary><strong>2-Alimentos recomendados</strong></summary>
+            <p>
+            Exemplo: <br>
+            Espécie do pet: Gato <br> Idade do pet (em anos): 2 anos <br> A sugestão de alimentação para um gato de 2 anos é oferecer tanto ração seca quanto ração úmida, e considerar a introdução de alimentos naturais, como frango cozido, peixe ou legumes, em pequena quantidade e de forma gradual.  
+            </p> </details>
+        <details>
+            <summary><strong>3-Exercícios adequados</strong></summary>
+            <p>
+                Exemplos: <br> Espécie do pet: Gato <br> Idade do pet (em anos): 2 anos <br> A sugestão de exercícios para um gato de 2 anos é Caça ao Tesouro, Árvore de Gato, Pista de Obstáculos, etc
+            </p> </details> 
+            <img src="Foto-Pet-Shop-removebg-preview.png" id="sug">
+            <img src="racao-removebg-preview.png" id="comida">
+    </div>
+
+    <div id="extra">
+        <h2>Cadastro do Dono(a)</h2>
+       <p>Essa é a funcionalidade extra do Vida Pet! Ela permite que o tutor também se cadastre no sistema, possibilitando que, em casos emergências, o Vida Pet possa entrar em contato com o dono facilitando a comunicação. Essa funcionalidade conta com o <b>cadastro inicial (login e senha), nome do tutor, endereço completo e telefone.</b> Todas essas informações estão contidas em um dicionário visando otimizar todo o processo. </p>
+       <img src="960x720-6-removebg-preview.png" id="tutor">
+       <img src="imagem4943_2-removebg-preview.png" id="tut">
+      </div>
+
+    <div id="voltar">
+        <h2 id="cads">Voltar ao Menu Principal</h2>
+        <p>Nessa opção o usuário consegue retornar ao menu principal, encerrando o cadastro de cuidados e eventos. </p></details>
+        <p>Caso seja feita uma escolha diferente das válidas, o usuário receberá uma mensagem instruindo-o a escolher dentre as opções válidas.</p>
+        <img src="11437625-removebg-preview.png" id="volt">
+      </div>
+  </div>
+  <script>
+    function toggleMenu(id) {
+      const menu = document.getElementById(id);
+      menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+    }
+
+    function showTab(id) {
+      const tabs = document.querySelectorAll('.content > div');
+      tabs.forEach(tab => tab.classList.remove('active'));
+
+      const selected = document.getElementById(id);
+      if (selected) {
+        selected.classList.add('active');
+      }
+    }
+  </script>
+
+</body>
+</html> c:\Users\luizn\Downloads\11437625.jpg
+ c:\Users\luizn\OneDrive\Área de Trabalho\Nova pasta\projeto fp html
