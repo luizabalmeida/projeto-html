@@ -70,7 +70,7 @@ body {
      font-size: 20px;
      background-color: rgb(171, 171, 218);
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    padding: 6px;
+     padding: 50px;
   }
   #crudd{
     margin-left: 300px;
@@ -242,4 +242,11 @@ body {
   } #volt{
     height: 300px;
     margin-left: 300px;
+  } #ex{
+    background-color: rgb(171, 171, 218);
+    padding: 50px;
+    margin-top: -60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }#p{
+    margin-left: 100px;
   }
